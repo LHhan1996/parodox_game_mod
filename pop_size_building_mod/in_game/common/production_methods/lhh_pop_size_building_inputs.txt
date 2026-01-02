@@ -1,0 +1,12 @@
+residential_area_maintenance = {
+	furniture = 0.1
+	tools = 0.05
+	glass = 0.1
+	cloth = 0.1
+	fine_cloth = 0.05
+	books = 0.1
+	pottery = 0.1
+	jewelry = 0.01
+
+	category = building_maintenance
+}
