@@ -1,4 +1,4 @@
-residential_area_maintenance = {
+lhh_residential_area_maintenance = {
 	furniture = 0.1
 	tools = 0.05
 	glass = 0.1
@@ -7,6 +7,46 @@ residential_area_maintenance = {
 	books = 0.1
 	pottery = 0.1
 	jewelry = 0.01
+
+	category = building_maintenance
+}
+
+lhh_manol_form_rice_maintenance = {
+	produced = rice
+	output = 5
+	tools = 0.1
+
+	category = building_maintenance
+}
+
+lhh_manol_form_wheat_maintenance = {
+	produced = wheat
+	output = 5
+	tools = 0.1
+
+	category = building_maintenance
+}
+
+lhh_manol_form_millet_maintenance = {
+	produced = millet
+	output = 5
+	tools = 0.1
+
+	category = building_maintenance
+}
+
+lhh_manol_form_maize_maintenance = {
+	produced = maize
+	output = 5
+	tools = 0.1
+
+	category = building_maintenance
+}
+
+lhh_manol_form_potato_maintenance = {
+	produced = potato
+	output = 5
+	tools = 0.1
 
 	category = building_maintenance
 }
