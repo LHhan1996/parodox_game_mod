@@ -1,8 +1,4 @@
-residential_area_max_level = {
-	add = {
-		desc = "BUILDING_LEVEL_BASE"
-		value = 5
-	}
+lhh_residential_area_max_level = {
 	add = {
 		desc = "BUILDING_LEVEL_DEVELOPMENT"
 		value = development
@@ -19,7 +15,7 @@ residential_area_max_level = {
         add = {
             desc = "BUILDING_LEVEL_POPULATION"
             value = population
-            multiply = 0.05
+            multiply = 0.01
 	    }
 	}
 	if = {
@@ -33,7 +29,33 @@ residential_area_max_level = {
         add = {
             desc = "BUILDING_LEVEL_POPULATION"
             value = population
-            multiply = 0.1
+            multiply = 0.025
 	    }
+	}
+}
+
+lhh_manol_form_max_level = {
+	add = {
+		desc = "BUILDING_LEVEL_POPULATION"
+		value = population
+		multiply = 0.005
+	}
+	if = {
+		limit = {
+			has_river = yes
+		}
+		add = {
+			desc = "BUILDING_LEVEL_HAS_RIVER"
+			value = 1
+		}
+	}
+	if = {
+		limit = {
+			vegetation = farmland
+		}
+		add = {
+			desc = "LHH_BUILDING_LEVEL_VEGETATION_IS_FARMLAND"
+			value = 2
+		}
 	}
 }

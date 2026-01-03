@@ -1,9 +1,9 @@
-residential_area = {
+lhh_residential_area = {
 	is_foreign = no
-	pop_type = laborers
-	max_levels = residential_area_max_level
+	pop_type = burghers
+	max_levels = lhh_residential_area_max_level
 
-	employment_size = village_employment_size
+	employment_size = trade_employment
 	
 	
 	build_time = infrastructure_build_time
@@ -14,12 +14,184 @@ residential_area = {
 	city = yes
 
 	modifier = {
-		local_population_capacity = 5
-		local_monthly_food_modifier = 0.02
+		local_population_capacity = 10
+		local_population_growth = 0.00005
+		local_monthly_development_modifier = 0.01
 	}
 	
 	possible_production_methods = {
-		nongtian_building_maintenance
+		lhh_residential_area_maintenance
 	}
 	construction_demand = town_building_construction
+}
+
+lhh_manol_form_wheat = {
+	is_foreign = no
+	pop_type = peasants
+	max_levels = lhh_manol_form_max_level
+
+	employment_size = huge_capital_peasants_employment
+	
+	build_time = infrastructure_build_time
+	
+	category = infrastructure_category
+
+	rural_settlement = yes
+	town = yes
+	city = yes
+
+	location_potential = {
+		raw_material = goods:wheat
+	}
+
+	modifier = {
+		local_population_capacity = 5
+		local_food_capacity = 500
+		local_monthly_food_modifier = 0.2
+		local_wheat_output_modifier = 0.05
+
+		local_nobles_desired_pop = 0.01
+	}
+	
+	possible_production_methods = {
+		lhh_manol_form_wheat_maintenance
+	}
+	construction_demand = village_construction
+}
+
+
+lhh_manol_form_rice = {
+	is_foreign = no
+	pop_type = peasants
+	max_levels = lhh_manol_form_max_level
+
+	employment_size = huge_capital_peasants_employment
+	
+	build_time = infrastructure_build_time
+	
+	category = infrastructure_category
+
+	rural_settlement = yes
+	town = yes
+	city = yes
+
+	location_potential = {
+		raw_material = goods:rice
+	}
+
+	modifier = {
+		local_population_capacity = 5
+		local_food_capacity = 500
+		local_monthly_food_modifier = 0.2
+		local_rice_output_modifier = 0.05
+
+		local_nobles_desired_pop = 0.01
+	}
+	
+	possible_production_methods = {
+		lhh_manol_form_rice_maintenance
+	}
+	construction_demand = village_construction
+}
+
+lhh_manol_form_maize = {
+	is_foreign = no
+	pop_type = peasants
+	max_levels = lhh_manol_form_max_level
+
+	employment_size = huge_capital_peasants_employment
+	
+	build_time = infrastructure_build_time
+	
+	category = infrastructure_category
+
+	rural_settlement = yes
+	town = yes
+	city = yes
+
+	location_potential = {
+		raw_material = goods:maize
+	}
+
+	modifier = {
+		local_population_capacity = 5
+		local_food_capacity = 500
+		local_monthly_food_modifier = 0.2
+		local_maize_output_modifier = 0.05
+
+		local_nobles_desired_pop = 0.01
+	}
+	
+	possible_production_methods = {
+		lhh_manol_form_maize_maintenance
+	}
+	construction_demand = village_construction
+}
+
+lhh_manol_form_millet = {
+	is_foreign = no
+	pop_type = peasants
+	max_levels = lhh_manol_form_max_level
+
+	employment_size = huge_capital_peasants_employment
+	
+	build_time = infrastructure_build_time
+	
+	category = infrastructure_category
+
+	rural_settlement = yes
+	town = yes
+	city = yes
+
+	location_potential = {
+		raw_material = goods:millet
+	}
+
+	modifier = {
+		local_population_capacity = 5
+		local_food_capacity = 500
+		local_monthly_food_modifier = 0.2
+		local_millet_output_modifier = 0.05
+
+		local_nobles_desired_pop = 0.01
+	}
+	
+	possible_production_methods = {
+		lhh_manol_form_millet_maintenance
+	}
+	construction_demand = village_construction
+}
+
+lhh_manol_form_potato = {
+	is_foreign = no
+	pop_type = peasants
+	max_levels = lhh_manol_form_max_level
+
+	employment_size = huge_capital_peasants_employment
+	
+	build_time = infrastructure_build_time
+	
+	category = infrastructure_category
+
+	rural_settlement = yes
+	town = yes
+	city = yes
+
+	location_potential = {
+		raw_material = goods:potato
+	}
+
+	modifier = {
+		local_population_capacity = 5
+		local_food_capacity = 500
+		local_monthly_food_modifier = 0.2
+		local_potato_output_modifier = 0.05
+
+		local_nobles_desired_pop = 0.01
+	}
+	
+	possible_production_methods = {
+		lhh_manol_form_potato_maintenance
+	}
+	construction_demand = village_construction
 }
