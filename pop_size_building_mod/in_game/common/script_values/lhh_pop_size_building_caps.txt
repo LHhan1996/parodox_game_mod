@@ -54,7 +54,7 @@ lhh_manol_form_max_level = {
 			vegetation = farmland
 		}
 		add = {
-			desc = "LHH_BUILDING_LEVEL_VEGETATION_IS_FARMLAND"
+			desc = "lhh_building_level_vegetation_is_farmland"
 			value = 2
 		}
 	}
