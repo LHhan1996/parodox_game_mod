@@ -1,0 +1,34 @@
+lhh_iron_workshop_max_level = {
+	add = {
+		desc = "BUILDING_LEVEL_BASE"
+		value = 5
+	}
+	add = {
+		desc = "BUILDING_LEVEL_DEVELOPMENT"
+		value = development
+		multiply = 0.1
+	}
+    if = {
+		limit = {
+			location_rank ?= location_rank:town
+		}
+		add = {
+			desc = "BUILDING_LEVEL_IS_TOWN"
+			value = 5
+		}
+	}
+	if = {
+		limit = {
+			location_rank ?= location_rank:city
+		}
+		add = {
+			desc = "BUILDING_LEVEL_IS_CITY"
+			value = 10
+		}
+	}
+	add = {
+		desc = "BUILDING_LEVEL_POPULATION"
+		value = population
+		multiply = 0.05
+	}
+}

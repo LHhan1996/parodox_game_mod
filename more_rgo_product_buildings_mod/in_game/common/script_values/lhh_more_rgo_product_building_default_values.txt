@@ -1,0 +1,3 @@
+#peasants / laborers 
+lhh_iron_workshop_produce_employment = 1.0
+lhh_deep_iron_mining_produce_employment = 2.0

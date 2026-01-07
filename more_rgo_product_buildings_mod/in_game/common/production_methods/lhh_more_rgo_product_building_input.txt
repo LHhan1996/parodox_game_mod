@@ -1,0 +1,17 @@
+lhh_iron_workshop_maintenance = {
+	produced = iron
+	output = 1
+	coal = 0.2
+	tools = 0.6
+
+	category = building_maintenance
+}
+
+lhh_large_iron_mining_maintenance = {
+	produced = iron
+	output = 3
+	coal = 0.6
+	tools = 1.2
+
+	category = building_maintenance
+}

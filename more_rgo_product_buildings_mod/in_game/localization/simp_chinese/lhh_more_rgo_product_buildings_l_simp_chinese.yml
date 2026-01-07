@@ -1,0 +1,7 @@
+﻿l_simp_chinese:
+ lhh_iron_workshop: "铁矿作坊"
+ lhh_iron_workshop_desc: "小型铁矿作坊，通常由地方工匠经营，利用简单的工具和技术从事铁矿的采集。这些作坊在满足当地需求方面发挥着重要作用，尽管其产量和效率较低，但它们为社区提供了基本的铁制品和就业机会。"
+ lhh_iron_workshop_maintenance: "铁矿作坊维护"
+ lhh_large_iron_mining: "深层铁矿"
+ lhh_large_iron_mining_desc: "利用先进的技术和设备，允许矿工挖掘更深的矿井，从而获取更多的铁矿资源，提高铁矿的产量和质量。"
+ lhh_large_iron_mining_maintenance: "深层铁矿维护"
