@@ -30,7 +30,7 @@ lhh_manol_form_wheat = {
 	pop_type = peasants
 	max_levels = lhh_manol_form_max_level
 
-	employment_size = huge_capital_peasants_employment
+	employment_size = lhh_manol_form_employment
 	
 	build_time = infrastructure_build_time
 	
@@ -65,7 +65,7 @@ lhh_manol_form_rice = {
 	pop_type = peasants
 	max_levels = lhh_manol_form_max_level
 
-	employment_size = huge_capital_peasants_employment
+	employment_size = lhh_manol_form_employment
 	
 	build_time = infrastructure_build_time
 	
@@ -99,7 +99,7 @@ lhh_manol_form_maize = {
 	pop_type = peasants
 	max_levels = lhh_manol_form_max_level
 
-	employment_size = huge_capital_peasants_employment
+	employment_size = lhh_manol_form_employment
 	
 	build_time = infrastructure_build_time
 	
@@ -133,7 +133,7 @@ lhh_manol_form_millet = {
 	pop_type = peasants
 	max_levels = lhh_manol_form_max_level
 
-	employment_size = huge_capital_peasants_employment
+	employment_size = lhh_manol_form_employment
 	
 	build_time = infrastructure_build_time
 	
@@ -167,7 +167,7 @@ lhh_manol_form_potato = {
 	pop_type = peasants
 	max_levels = lhh_manol_form_max_level
 
-	employment_size = huge_capital_peasants_employment
+	employment_size = lhh_manol_form_employment
 	
 	build_time = infrastructure_build_time
 	

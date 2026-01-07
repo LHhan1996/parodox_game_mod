@@ -1,0 +1,12 @@
+﻿{
+	"name":	"more_rgo_product_buildings[更多原产建筑扩展]",
+	"id":	"lhh.more_rgo_product_buildings",
+	"version":	"0.1",
+	"supported_game_version":	"1.0.10",
+	"short_description":	"增加了大量原产相关的建筑",
+	"tags":	["Balance"],
+	"picture" : "thumbnail.png",
+	"relationships":	[],
+	"game_custom_data":	{
+}
+}

@@ -1,0 +1,70 @@
+lhh_iron_workshop = {
+	is_foreign = no
+	pop_type = laborers
+	max_levels = lhh_iron_workshop_max_level
+
+	employment_size = lhh_iron_workshop_produce_employment
+	
+	
+	build_time = rural_build_time
+	
+	category = rgo_building_category
+
+	rural_settlement = yes
+	town = yes
+	city = yes
+
+	location_potential = {
+		OR = {
+			topography = mountains
+			topography = hills
+			raw_material = goods:iron
+		}
+	}
+
+	modifier = {
+		local_iron_output_modifier = 0.05
+	}
+	
+	possible_production_methods = {
+		lhh_iron_workshop_maintenance
+	}
+	construction_demand = basic_construction_needs
+}
+
+lhh_large_iron_mining = {
+	is_foreign = no
+	pop_type = laborers
+	max_levels = lhh_iron_workshop_max_level
+	
+	employment_size = lhh_deep_iron_mining_produce_employment
+	obsolete = lhh_iron_workshop
+	
+	category = rgo_building_category
+	
+	rural_settlement = yes
+	town = yes
+	city = yes
+	
+	
+
+	build_time = rural_build_time
+	
+	location_potential = {
+		OR = {
+			topography = mountains
+			topography = hills
+			raw_material = goods:iron
+		}
+	}
+
+	modifier = {
+		local_iron_output_modifier = 0.08
+	}
+	
+	possible_production_methods = {
+		lhh_large_iron_mining_maintenance
+	}
+
+	construction_demand = basic_construction_needs
+}

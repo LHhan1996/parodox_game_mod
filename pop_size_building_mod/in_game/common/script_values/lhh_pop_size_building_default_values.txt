@@ -1,0 +1,2 @@
+#peasants / laborers 
+lhh_manol_form_employment = 5.0
