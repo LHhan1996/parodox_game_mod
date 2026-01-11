@@ -1,0 +1,54 @@
+﻿l_english:
+ lhh_iron_workshop: "Iron Workshop"
+ lhh_iron_workshop_desc: "A small iron workshop typically operated by local craftsmen, using simple tools and techniques to extract iron ore. These workshops play an important role in meeting local demand, despite their low output and efficiency, providing basic iron products and employment opportunities for the community."
+ lhh_iron_workshop_maintenance: "Iron Workshop Maintenance"
+
+ lhh_deep_iron_mining: "Deep Iron Mining"
+ lhh_deep_iron_mining_desc: "Utilizing advanced technology and equipment, this allows miners to dig deeper mines, thereby obtaining more iron resources, increasing both the output and quality of iron."
+ lhh_deep_iron_mining_maintenance: "Deep Iron Mining Maintenance"
+ lhh_deep_iron_mining_advance: "$lhh_deep_iron_mining$"
+ lhh_deep_iron_mining_advance_desc: "$lhh_deep_iron_mining_desc$"
+
+ lhh_horse_ranch: "Horse Ranch"
+ lhh_horse_ranch_desc: "Horse Ranch is facilities specifically designed for the breeding and raising of horses. Every year, a large number of prized horses are bred for selection by nobles, and they also provide vital support for various fields such as transportation and the military."
+ lhh_horse_ranch_maintenance: "Horse Ranch Maintenance"
+
+ lhh_logging_mill: "Logging Mill"
+ lhh_logging_mill_desc: "A logging mill is a facility specifically designed for processing and manufacturing wood. They convert raw logs into various wooden products such as planks, furniture, and building materials, meeting the needs of the construction and manufacturing industries."
+ lhh_logging_mill_maintenance: "Logging Mill Maintenance"
+
+ lhh_coal_mining: "Coal Mining"
+ lhh_coal_mining_desc: "Coal Mining is a facility specifically designed for extracting coal resources. It can efficiently extract coal resources, providing important support for industrial production and energy supply."
+ lhh_coal_mining_maintenance: "Coal Mining Maintenance"
+
+ lhh_deep_goods_gold_mining: "Deep Gold Mining"
+ lhh_deep_goods_gold_mining_desc: "Utilizing advanced technology and equipment, this allows miners to dig deeper mines, thereby obtaining more gold resources, increasing both the output and quality of gold."
+ lhh_deep_goods_gold_mining_maintenance: "Deep Gold Mining Maintenance"
+
+ lhh_deep_silver_mining: "Deep Silver Mining"
+ lhh_deep_silver_mining_desc: "Utilizing advanced technology and equipment, this allows miners to dig deeper mines, thereby obtaining more silver resources, increasing both the output and quality of silver."
+ lhh_deep_silver_mining_maintenance: "Deep Silver Mining Maintenance"
+
+ lhh_deep_gems_mining: "Deep Gems Mining"
+ lhh_deep_gems_mining_desc: "Utilizing advanced technology and equipment, this allows miners to dig deeper mines, thereby obtaining more gems resources, increasing both the output and quality of gems."
+ lhh_deep_gems_mining_maintenance: "Deep Gems Mining Maintenance"
+
+ lhh_deep_mercury_mining: "Deep Mercury Mining"
+ lhh_deep_mercury_mining_desc: "Utilizing advanced technology and equipment, this allows miners to dig deeper mines, thereby obtaining more mercury resources, increasing both the output and quality of mercury."
+ lhh_deep_mercury_mining_maintenance: "Deep Mercury Mining Maintenance"
+
+ lhh_copper_mining: "Copper Mining"
+ lhh_copper_mining_desc: "Copper Mining is a facility specifically designed for extracting copper resources. It can efficiently extract copper resources, providing important support for industrial production and manufacturing."
+ lhh_copper_mining_maintenance: "Copper Mining Maintenance"
+
+ lhh_tin_mining: "Tin Mining"
+ lhh_tin_mining_desc: "Tin Mining is a facility specifically designed for extracting tin resources. It can efficiently extract tin resources, providing important support for industrial production and manufacturing."
+ lhh_tin_mining_maintenance: "Tin Mining Maintenance"
+
+ lhh_lead_mining: "Lead Mining"
+ lhh_lead_mining_desc: "Lead Mining is a facility specifically designed for extracting lead resources. It can efficiently extract lead resources, providing important support for industrial production and manufacturing."
+ lhh_lead_mining_maintenance: "Lead Mining Maintenance"
+
+ lhh_alum_mining: "Alum Mining"
+ lhh_alum_mining_desc: "Alum Mining is a facility specifically designed for extracting and purifying alum resources. It can efficiently produce high-purity alum resources, providing important support for industrial production and manufacturing."
+ lhh_alum_mining_maintenance: "Alum Mining Maintenance"

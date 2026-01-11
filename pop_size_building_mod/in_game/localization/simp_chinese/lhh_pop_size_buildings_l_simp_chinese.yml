@@ -2,6 +2,11 @@
  lhh_residential_area: "居民区"
  lhh_residential_area_desc: "随着城市化的进程，农民涌入城市，形成了大量的居民区。这些区域通常位于城市的边缘地带，提供了基本的住房和生活设施。居民区的建设有助于缓解城市中心的住房压力，同时也促进了城市的经济发展和社会稳定。"
  lhh_residential_area_maintenance: "居民区维护"
+
+ lhh_royal_post: "驿站"
+ lhh_royal_post_desc: "驿站是国家运营的一个系统化的邮件和包裹递送网络，有专业的人员(往往是士兵)进行维护。它负责收集、分类、运输和递送各种信件和物品，在商业活动和社会联系中发挥着重要作用，是维系国家统治中不可或缺的一部分。"
+ lhh_royal_post_maintenance: "驿站维护"
+
  lhh_manol_form_wheat: "小麦庄园"
  lhh_manol_form_wheat_desc: "庄园是封建贵族体系下，一种重要的农业生产单位。它通常由贵族或地主拥有，农民已雇佣或奴役在庄园内耕种作物，并向庄园主缴纳租金或劳役。庄园不仅是粮食生产的核心，也是社会经济结构的重要组成部分。通过庄园的运作，封建社会得以维持其经济基础和社会秩序。"
  lhh_manol_form_wheat_maintenance: "小麦庄园维护"

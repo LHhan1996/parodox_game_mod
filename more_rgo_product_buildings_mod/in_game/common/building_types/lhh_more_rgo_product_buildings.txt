@@ -4,16 +4,47 @@ lhh_iron_workshop = {
 	max_levels = lhh_iron_workshop_max_level
 
 	employment_size = lhh_iron_workshop_produce_employment
-	
-	
+
 	build_time = rural_build_time
 	
 	category = rgo_building_category
 
-	rural_settlement = yes
 	town = yes
 	city = yes
 
+	location_potential = {
+		OR = {
+			topography = mountains
+			topography = hills
+			raw_material = goods:iron
+		}
+	}
+
+	modifier = {
+		local_iron_output_modifier = 0.02
+	}
+	
+	possible_production_methods = {
+		lhh_iron_workshop_maintenance
+	}
+	construction_demand = basic_construction_needs
+}
+
+lhh_deep_iron_mining = {
+	is_foreign = no
+	pop_type = laborers
+	max_levels = lhh_iron_workshop_max_level
+	
+	employment_size = lhh_deep_iron_mining_produce_employment
+	obsolete = lhh_iron_workshop
+	
+	category = rgo_building_category
+
+	town = yes
+	city = yes
+
+	build_time = rural_build_time
+	
 	location_potential = {
 		OR = {
 			topography = mountains
@@ -27,43 +58,376 @@ lhh_iron_workshop = {
 	}
 	
 	possible_production_methods = {
-		lhh_iron_workshop_maintenance
+		lhh_deep_iron_mining_maintenance
 	}
+
 	construction_demand = basic_construction_needs
 }
 
-lhh_large_iron_mining = {
+lhh_horse_ranch = {
 	is_foreign = no
 	pop_type = laborers
-	max_levels = lhh_iron_workshop_max_level
+	max_levels = lhh_horse_ranch_max_level
 	
-	employment_size = lhh_deep_iron_mining_produce_employment
-	obsolete = lhh_iron_workshop
-	
+	employment_size = lhh_horse_ranch_produce_employment
+
 	category = rgo_building_category
-	
+
 	rural_settlement = yes
 	town = yes
 	city = yes
-	
-	
 
 	build_time = rural_build_time
 	
 	location_potential = {
 		OR = {
-			topography = mountains
-			topography = hills
-			raw_material = goods:iron
+			AND = {
+				topography = flatland
+				vegetation = grasslands
+				OR {
+					raw_material = goods:wool
+					raw_material = goods:livestock
+				}
+			}
+			raw_material = goods:horses
 		}
 	}
 
 	modifier = {
-		local_iron_output_modifier = 0.08
+		local_horses_output_modifier = 0.02
 	}
 	
 	possible_production_methods = {
-		lhh_large_iron_mining_maintenance
+		lhh_horse_ranch_maintenance
+	}
+
+	construction_demand = lhh_horse_ranch_construction
+}
+
+
+lhh_logging_mill = {
+	is_foreign = no
+	max_levels = lhh_logging_mill_max_level
+	pop_type = laborers
+	
+	employment_size = lhh_logging_mill_produce_employment
+
+	town = yes
+	city = yes
+
+	
+	location_potential = {
+		OR = {
+			vegetation = woods
+			vegetation = forest
+			vegetation = farmland
+			vegetation = jungle
+			raw_material = goods:lumber
+		}
+	}
+
+	category = rgo_building_category
+	
+	build_time = rural_build_time
+	
+	modifier = {
+		local_lumber_output_modifier = 0.05
+	}
+	
+	possible_production_methods = {
+		lhh_logging_mill_maintenance
+	}
+
+	construction_demand = lhh_logging_mill_construction
+}
+
+lhh_coal_mining = {
+	is_foreign = no
+	pop_type = laborers
+	max_levels = lhh_coal_mining_max_level
+	
+	employment_size = lhh_coal_mining_produce_employment
+	
+	category = rgo_building_category
+
+	town = yes
+	city = yes
+
+	build_time = rural_build_time
+	
+	location_potential = {
+		OR = {
+			topography = hills
+			raw_material = goods:coal
+		}
+	}
+
+	modifier = {
+		local_coal_output_modifier = 0.05
+	}
+	
+	possible_production_methods = {
+		lhh_coal_mining_maintenance
+	}
+
+	construction_demand = basic_construction_needs
+}
+
+lhh_deep_goods_gold_mining = {
+	is_foreign = no
+	pop_type = laborers
+	max_levels = lhh_precious_meta_max_level
+	
+	employment_size = lhh_precious_meta_produce_employment
+	
+	category = rgo_building_category
+
+	town = yes
+	city = yes
+
+	build_time = rural_build_time
+	
+	location_potential = {
+		OR = {
+			raw_material = goods:goods_gold
+		}
+	}
+
+	modifier = {
+		local_goods_gold_output_modifier = 0.1
+	}
+	
+	possible_production_methods = {
+		lhh_deep_goods_gold_mining_maintenance
+	}
+
+	construction_demand = basic_construction_needs
+}
+
+lhh_deep_silver_mining = {
+	is_foreign = no
+	pop_type = laborers
+	max_levels = lhh_precious_meta_max_level
+	
+	employment_size = lhh_precious_meta_produce_employment
+	
+	category = rgo_building_category
+
+	town = yes
+	city = yes
+
+	build_time = rural_build_time
+	
+	location_potential = {
+		OR = {
+			raw_material = goods:silver
+		}
+	}
+
+	modifier = {
+		local_silver_output_modifier = 0.1
+	}
+	
+	possible_production_methods = {
+		lhh_deep_silver_mining_maintenance
+	}
+
+	construction_demand = basic_construction_needs
+}
+
+lhh_deep_gems_mining = {
+	is_foreign = no
+	pop_type = laborers
+	max_levels = lhh_precious_meta_max_level
+	
+	employment_size = lhh_precious_meta_produce_employment
+	
+	category = rgo_building_category
+
+	town = yes
+	city = yes
+
+	build_time = rural_build_time
+	
+	location_potential = {
+		OR = {
+			raw_material = goods:gems
+		}
+	}
+
+	modifier = {
+		local_gems_output_modifier = 0.1
+	}
+	
+	possible_production_methods = {
+		lhh_deep_gems_mining_maintenance
+	}
+
+	construction_demand = basic_construction_needs
+}
+
+lhh_deep_mercury_mining = {
+	is_foreign = no
+	pop_type = laborers
+	max_levels = lhh_precious_meta_max_level
+	
+	employment_size = lhh_precious_meta_produce_employment
+	
+	category = rgo_building_category
+
+	town = yes
+	city = yes
+
+	build_time = rural_build_time
+	
+	location_potential = {
+		OR = {
+			raw_material = goods:mercury
+		}
+	}
+
+	modifier = {
+		local_mercury_output_modifier = 0.2
+	}
+	
+	possible_production_methods = {
+		lhh_deep_mercury_mining_maintenance
+	}
+
+	construction_demand = basic_construction_needs
+}
+
+lhh_copper_mining = {
+	is_foreign = no
+	pop_type = laborers
+	max_levels = lhh_normal_meta_max_level
+	
+	employment_size = lhh_normal_meta_produce_employment
+	
+	category = rgo_building_category
+
+	town = yes
+	city = yes
+
+	build_time = rural_build_time
+	
+	location_potential = {
+		OR = {
+			raw_material = goods:copper
+			raw_material = goods:tin
+			raw_material = goods:lead
+			raw_material = goods:alum
+		}
+	}
+
+	modifier = {
+		local_copper_output_modifier = 0.1
+	}
+	
+	possible_production_methods = {
+		lhh_copper_mining_maintenance
+	}
+
+	construction_demand = basic_construction_needs
+}
+
+lhh_tin_mining = {
+	is_foreign = no
+	pop_type = laborers
+	max_levels = lhh_normal_meta_max_level
+	
+	employment_size = lhh_normal_meta_produce_employment
+	
+	category = rgo_building_category
+
+	town = yes
+	city = yes
+
+	build_time = rural_build_time
+	
+	location_potential = {
+		OR = {
+			raw_material = goods:copper
+			raw_material = goods:tin
+			raw_material = goods:lead
+			raw_material = goods:alum
+		}
+	}
+
+	modifier = {
+		local_tin_output_modifier = 0.1
+	}
+	
+	possible_production_methods = {
+		lhh_tin_mining_maintenance
+	}
+
+	construction_demand = basic_construction_needs
+}
+
+lhh_lead_mining = {
+	is_foreign = no
+	pop_type = laborers
+	max_levels = lhh_normal_meta_max_level
+	
+	employment_size = lhh_normal_meta_produce_employment
+	
+	category = rgo_building_category
+
+	town = yes
+	city = yes
+
+	build_time = rural_build_time
+	
+	location_potential = {
+		OR = {
+			raw_material = goods:copper
+			raw_material = goods:tin
+			raw_material = goods:lead
+			raw_material = goods:alum
+		}
+	}
+
+	modifier = {
+		local_lead_output_modifier = 0.1
+	}
+	
+	possible_production_methods = {
+		lhh_lead_mining_maintenance
+	}
+
+	construction_demand = basic_construction_needs
+}
+
+lhh_alum_mining = {
+	is_foreign = no
+	pop_type = laborers
+	max_levels = lhh_normal_meta_max_level
+	
+	employment_size = lhh_normal_meta_produce_employment
+	
+	category = rgo_building_category
+
+	town = yes
+	city = yes
+
+	build_time = rural_build_time
+	
+	location_potential = {
+		OR = {
+			raw_material = goods:copper
+			raw_material = goods:tin
+			raw_material = goods:lead
+			raw_material = goods:alum
+		}
+	}
+
+	modifier = {
+		local_alum_output_modifier = 0.1
+	}
+	
+	possible_production_methods = {
+		lhh_alum_mining_maintenance
 	}
 
 	construction_demand = basic_construction_needs

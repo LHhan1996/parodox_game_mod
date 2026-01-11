@@ -1,0 +1,7 @@
+lhh_royal_post_construction = {
+	masonry = 1
+	lumber = 0.5
+	horses = 0.5
+	
+	category = building_construction
+}

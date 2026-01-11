@@ -4,8 +4,7 @@ lhh_residential_area = {
 	max_levels = lhh_residential_area_max_level
 
 	employment_size = trade_employment
-	
-	
+
 	build_time = infrastructure_build_time
 	
 	category = infrastructure_category
@@ -25,6 +24,33 @@ lhh_residential_area = {
 	construction_demand = town_building_construction
 }
 
+lhh_royal_post = {
+	is_foreign = no
+	max_levels = 1
+	pop_type = soldiers
+
+	employment_size = lhh_royal_post_employment
+
+	build_time = government_build_time
+
+	category = government_category
+
+	rural_settlement = yes
+	town = yes
+	city = yes
+
+	modifier = {
+		local_crown_estate_power = 0.3
+		local_market_access = 0.2
+		local_distance_from_capital_cost_modifier = -0.1
+	}
+	
+	possible_production_methods = {
+		lhh_royal_post_maintenance
+	}
+	construction_demand = lhh_royal_post_construction
+}
+
 lhh_manol_form_wheat = {
 	is_foreign = no
 	pop_type = peasants
@@ -34,7 +60,7 @@ lhh_manol_form_wheat = {
 	
 	build_time = infrastructure_build_time
 	
-	category = infrastructure_category
+	category = rgo_building_category
 
 	rural_settlement = yes
 	town = yes
@@ -50,7 +76,7 @@ lhh_manol_form_wheat = {
 		local_monthly_food_modifier = 0.2
 		local_wheat_output_modifier = 0.05
 
-		local_nobles_desired_pop = 0.01
+		local_nobles_desired_pop = 0.05
 	}
 	
 	possible_production_methods = {
@@ -69,7 +95,7 @@ lhh_manol_form_rice = {
 	
 	build_time = infrastructure_build_time
 	
-	category = infrastructure_category
+	category = rgo_building_category
 
 	rural_settlement = yes
 	town = yes
@@ -103,7 +129,7 @@ lhh_manol_form_maize = {
 	
 	build_time = infrastructure_build_time
 	
-	category = infrastructure_category
+	category = rgo_building_category
 
 	rural_settlement = yes
 	town = yes
@@ -137,7 +163,7 @@ lhh_manol_form_millet = {
 	
 	build_time = infrastructure_build_time
 	
-	category = infrastructure_category
+	category = rgo_building_category
 
 	rural_settlement = yes
 	town = yes
@@ -171,7 +197,7 @@ lhh_manol_form_potato = {
 	
 	build_time = infrastructure_build_time
 	
-	category = infrastructure_category
+	category = rgo_building_category
 
 	rural_settlement = yes
 	town = yes

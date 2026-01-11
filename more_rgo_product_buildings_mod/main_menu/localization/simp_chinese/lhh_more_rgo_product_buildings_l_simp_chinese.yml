@@ -1,0 +1,54 @@
+﻿l_simp_chinese:
+ lhh_iron_workshop: "铁矿作坊"
+ lhh_iron_workshop_desc: "小型铁矿作坊，通常由地方工匠经营，利用简单的工具和技术从事铁矿的采集。这些作坊在满足当地需求方面发挥着重要作用，尽管其产量和效率较低，但它们为社区提供了基本的铁制品和就业机会。"
+ lhh_iron_workshop_maintenance: "铁矿作坊维护"
+
+ lhh_deep_iron_mining: "深层铁矿"
+ lhh_deep_iron_mining_desc: "利用先进的技术和设备，允许矿工挖掘更深的矿井，从而获取更多的铁矿资源，提高铁矿的产量和质量。"
+ lhh_deep_iron_mining_maintenance: "深层铁矿维护"
+ lhh_deep_iron_mining_advance: "$lhh_deep_iron_mining$"
+ lhh_deep_iron_mining_advance_desc: "$lhh_deep_iron_mining_desc$"
+
+ lhh_horse_ranch: "马舍"
+ lhh_horse_ranch_desc: "马舍是专门用于马匹繁殖和饲养的设施。每年都会有大量名贵的马匹被培养出来为贵族用来挑选，同时也为交通和军事等各个领域提供了重要支持。"
+ lhh_horse_ranch_maintenance: "马舍维护"
+
+ lhh_logging_mill: "木材加工厂"
+ lhh_logging_mill_desc: "木材加工厂是专门用于处理和加工木材的设施。它们将原木转化为各种木制品，如木板、家具和建筑材料，满足建筑业和制造业的需求。"
+ lhh_logging_mill_maintenance: "木材加工厂维护"
+
+ lhh_coal_mining: "煤矿"
+ lhh_coal_mining_desc: "煤矿是专门用于开采煤炭资源的设施。能够高效地提取煤炭资源，为工业生产和能源供应提供重要支持。"
+ lhh_coal_mining_maintenance: "煤矿维护"
+
+ lhh_deep_goods_gold_mining: "深层金矿"
+ lhh_deep_goods_gold_mining_desc: "利用先进的技术和设备，允许矿工挖掘更深的矿井，从而获取更多的黄金资源，提高黄金的产量和质量。"
+ lhh_deep_goods_gold_mining_maintenance: "深层金矿维护"
+
+ lhh_deep_silver_mining: "深层银矿"
+ lhh_deep_silver_mining_desc: "利用先进的技术和设备，允许矿工挖掘更深的矿井，从而获取更多的银资源，提高银的产量和质量。"
+ lhh_deep_silver_mining_maintenance: "深层银矿维护"
+
+ lhh_deep_gems_mining: "深层宝石矿"
+ lhh_deep_gems_mining_desc: "利用先进的技术和设备，允许矿工挖掘更深的矿井，从而获取更多的宝石资源，提高宝石的产量和质量。"
+ lhh_deep_gems_mining_maintenance: "深层宝石矿维护"
+
+ lhh_deep_mercury_mining: "深层汞矿"
+ lhh_deep_mercury_mining_desc: "利用先进的技术和设备，允许矿工挖掘更深的矿井，从而获取更多的汞资源，提高汞的产量和质量。"
+ lhh_deep_mercury_mining_maintenance: "深层汞矿维护"
+
+ lhh_copper_mining: "铜矿"
+ lhh_copper_mining_desc: "铜矿是专门用于开采铜资源的设施。能够高效地挖掘铜资源，为工业生产和制造业提供重要支持。"
+ lhh_copper_mining_maintenance: "铜矿维护"
+
+ lhh_tin_mining: "锡矿"
+ lhh_tin_mining_desc: "锡矿是专门用于开采锡资源的设施。能够高效地挖掘锡资源，为工业生产和制造业提供重要支持。"
+ lhh_tin_mining_maintenance: "锡矿维护"
+
+ lhh_lead_mining: "铅矿"
+ lhh_lead_mining_desc: "铅矿是专门用于开采铅资源的设施。能够高效地挖掘铅资源，为工业生产和制造业提供重要支持。"
+ lhh_lead_mining_maintenance: "铅矿维护"
+
+ lhh_alum_mining: "钾明矾矿"
+ lhh_alum_mining_desc: "钾明矾矿是专门用于开采并提纯明矾资源的设施。能够高效地生产出较高纯度的明矾资源，为工业生产和制造业提供重要支持。"
+ lhh_alum_mining_maintenance: "钾明矾矿维护"

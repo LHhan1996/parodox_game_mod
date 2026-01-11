@@ -1,3 +1,8 @@
 #peasants / laborers 
 lhh_iron_workshop_produce_employment = 1.0
 lhh_deep_iron_mining_produce_employment = 2.0
+lhh_horse_ranch_produce_employment = 2.0
+lhh_logging_mill_produce_employment = 2.0
+lhh_coal_mining_produce_employment = 2.0
+lhh_precious_meta_produce_employment = 2.0
+lhh_normal_meta_produce_employment = 1.0
