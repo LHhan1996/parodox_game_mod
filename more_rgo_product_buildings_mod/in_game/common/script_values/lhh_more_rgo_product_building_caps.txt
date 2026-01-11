@@ -1,12 +1,18 @@
 lhh_iron_workshop_max_level = {
 	add = {
-		desc = "BUILDING_LEVEL_BASE"
-		value = 5
-	}
-	add = {
 		desc = "BUILDING_LEVEL_DEVELOPMENT"
 		value = development
 		multiply = 0.1
+	}
+	if = {
+		limit = {
+			raw_material ?= goods:iron
+		}
+		add = {
+			desc = "BUILDING_LEVEL_RGO_MAX"
+			value = max_rgo_workers
+			multiply = 1.0
+		}
 	}
     if = {
 		limit = {
@@ -15,6 +21,162 @@ lhh_iron_workshop_max_level = {
 		add = {
 			desc = "BUILDING_LEVEL_IS_TOWN"
 			value = 5
+		}
+		add = {
+			desc = "BUILDING_LEVEL_POPULATION"
+			value = population
+			multiply = 0.02
+		}
+	}
+	if = {
+		limit = {
+			location_rank ?= location_rank:city
+		}
+		add = {
+			desc = "BUILDING_LEVEL_IS_CITY"
+			value = 5
+		}
+		add = {
+			desc = "BUILDING_LEVEL_POPULATION"
+			value = population
+			multiply = 0.05
+		}
+	}
+}
+
+lhh_horse_ranch_max_level = {
+	add = {
+		desc = "BUILDING_LEVEL_BASE"
+		value = 2
+	}
+	add = {
+		desc = "BUILDING_LEVEL_DEVELOPMENT"
+		value = development
+		multiply = 0.1
+	}
+	if = {
+		limit = {
+			raw_material ?= goods:horses
+		}
+		add = {
+			desc = "BUILDING_LEVEL_RGO_MAX"
+			value = max_rgo_workers
+			multiply = 1.0
+		}
+	}
+	add = {
+		desc = "BUILDING_LEVEL_POPULATION"
+		value = population
+		multiply = 0.02
+	}
+}
+
+lhh_logging_mill_max_level = {
+	add = {
+		desc = "BUILDING_LEVEL_BASE"
+		value = 5
+	}
+	add = {
+		desc = "BUILDING_LEVEL_DEVELOPMENT"
+		value = development
+		multiply = 0.1
+	}
+	if = {
+		limit = {
+			raw_material ?= goods:lumber
+		}
+		add = {
+			desc = "BUILDING_LEVEL_RGO_MAX"
+			value = max_rgo_workers
+			multiply = 1.0
+		}
+	}
+	add = {
+		desc = "BUILDING_LEVEL_POPULATION"
+		value = population
+		multiply = 0.05
+	}
+}
+
+lhh_coal_mining_max_level = {
+	add = {
+		desc = "BUILDING_LEVEL_DEVELOPMENT"
+		value = development
+		multiply = 0.1
+	}
+	if = {
+		limit = {
+			raw_material ?= goods:coal
+		}
+		add = {
+			desc = "BUILDING_LEVEL_RGO_MAX"
+			value = max_rgo_workers
+			multiply = 1.0
+		}
+	}
+    if = {
+		limit = {
+			location_rank ?= location_rank:town
+		}
+		add = {
+			desc = "BUILDING_LEVEL_IS_TOWN"
+			value = 5
+		}
+		add = {
+			desc = "BUILDING_LEVEL_POPULATION"
+			value = population
+			multiply = 0.02
+		}
+	}
+	if = {
+		limit = {
+			location_rank ?= location_rank:city
+		}
+		add = {
+			desc = "BUILDING_LEVEL_IS_CITY"
+			value = 5
+		}
+		add = {
+			desc = "BUILDING_LEVEL_POPULATION"
+			value = population
+			multiply = 0.05
+		}
+	}
+}
+
+lhh_precious_meta_max_level = {
+	add = {
+		desc = "BUILDING_LEVEL_DEVELOPMENT"
+		value = development
+		multiply = 0.1
+	}
+	if = {
+		limit = {a
+			OR = {
+				raw_material ?= goods:goods_gold
+				raw_material ?= goods:silver
+				raw_material ?= goods:gems
+				raw_material ?= goods:mercury
+			}
+		}
+		add = {
+			desc = "BUILDING_LEVEL_RGO_MAX"
+			value = max_rgo_workers
+			multiply = 1.0
+		}
+	}
+    if = {
+		limit = {
+			location_rank ?= location_rank:town
+		}
+		add = {
+			desc = "BUILDING_LEVEL_IS_TOWN"
+			value = 5
+		}
+		add = {
+			desc = "BUILDING_LEVEL_POPULATION"
+			value = population
+			multiply = 0.02
 		}
 	}
 	if = {
@@ -25,10 +187,61 @@ lhh_iron_workshop_max_level = {
 			desc = "BUILDING_LEVEL_IS_CITY"
 			value = 10
 		}
+		add = {
+			desc = "BUILDING_LEVEL_POPULATION"
+			value = population
+			multiply = 0.05
+		}
 	}
+}
+
+lhh_normal_meta_max_level = {
 	add = {
-		desc = "BUILDING_LEVEL_POPULATION"
-		value = population
-		multiply = 0.05
+		desc = "BUILDING_LEVEL_DEVELOPMENT"
+		value = development
+		multiply = 0.1
+	}
+	if = {
+		limit = {a
+			OR = {
+				raw_material ?= goods:copper
+				raw_material ?= goods:tin
+				raw_material ?= goods:lead
+				raw_material ?= goods:alum
+			}
+		}
+		add = {
+			desc = "BUILDING_LEVEL_RGO_MAX"
+			value = max_rgo_workers
+			multiply = 0.5
+		}
+	}
+    if = {
+		limit = {
+			location_rank ?= location_rank:town
+		}
+		add = {
+			desc = "BUILDING_LEVEL_IS_TOWN"
+			value = 2
+		}
+		add = {
+			desc = "BUILDING_LEVEL_POPULATION"
+			value = population
+			multiply = 0.02
+		}
+	}
+	if = {
+		limit = {
+			location_rank ?= location_rank:city
+		}
+		add = {
+			desc = "BUILDING_LEVEL_IS_CITY"
+			value = 5
+		}
+		add = {
+			desc = "BUILDING_LEVEL_POPULATION"
+			value = population
+			multiply = 0.05
+		}
 	}
 }

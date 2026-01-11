@@ -7,11 +7,101 @@ lhh_iron_workshop_maintenance = {
 	category = building_maintenance
 }
 
-lhh_large_iron_mining_maintenance = {
+lhh_deep_iron_mining_maintenance = {
 	produced = iron
 	output = 3
 	coal = 0.6
-	tools = 1.2
+	tools = 1.8
+
+	category = building_maintenance
+}
+
+lhh_horse_ranch_maintenance = {
+	produced = horses
+	output = 2
+	horses = 0.5
+	wheat = 3
+
+	category = building_maintenance
+}
+
+lhh_logging_mill_maintenance = {
+	produced = lumber
+	output = 2
+	tools = 0.8
+
+	category = building_maintenance
+}
+
+lhh_coal_mining_maintenance = {
+	produced = coal
+	output = 2
+	tools = 0.6
+
+	category = building_maintenance
+}
+
+lhh_deep_goods_gold_mining_maintenance = {
+	produced = goods_gold
+	output = 2
+	tools = 2
+
+	category = building_maintenance
+}
+
+lhh_deep_silver_mining_maintenance = {
+	produced = silver
+	output = 2
+	tools = 1.6
+
+	category = building_maintenance
+}
+
+lhh_deep_gems_mining_maintenance = {
+	produced = gems
+	output = 2
+	tools = 1
+
+	category = building_maintenance
+}
+
+lhh_deep_mercury_mining_maintenance = {
+	produced = mercury
+	output = 2
+	tools = 1
+
+	category = building_maintenance
+}
+
+lhh_copper_mining_maintenance = {
+	produced = copper
+	output = 1
+	tools = 0.6
+
+	category = building_maintenance
+}
+
+lhh_tin_mining_maintenance = {
+	produced = tin
+	output = `2`
+	tools = 0.4
+
+	category = building_maintenance
+}
+
+lhh_lead_mining_maintenance = {
+	produced = lead
+	output = 1
+	tools = 0.4
+
+	category = building_maintenance
+}
+
+lhh_alum_mining_maintenance = {
+	produced = alum
+	output = 1
+	tools = 0.4
+	coal = 0.3
 
 	category = building_maintenance
 }

@@ -3,10 +3,19 @@ lhh_residential_area_maintenance = {
 	tools = 0.2
 	glass = 0.2
 	cloth = 0.2
+	beer = 0.2
 	fine_cloth = 0.1
-	books = 0.2
-	pottery = 0.2
+	books = 0.1
+	wine = 0.1
 	jewelry = 0.1
+
+	category = building_maintenance
+}
+
+lhh_royal_post_maintenance = {
+	paper = 0.2
+	horses = 0.2
+	weaponry = 0.1
 
 	category = building_maintenance
 }

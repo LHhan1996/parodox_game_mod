@@ -1,5 +1,5 @@
-lhh_deep_iron_mining = {
+lhh_deep_iron_mining_advance = {
 	age = age_5_absolutism
 	requires = coke_blast_furnace
-	unlock_building = lhh_large_iron_mining
+	unlock_building = lhh_deep_iron_mining
 }
