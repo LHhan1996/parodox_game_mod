@@ -1,4 +1,8 @@
 ﻿l_simp_chinese:
+ lhh_village_settlement: "村庄定居点"
+ lhh_village_settlement_desc: "村庄定居点是指在农村地区建立的小型社区，通常由农民和手工业者组成。这些定居点提供了基本的住房和生活设施。"
+ lhh_village_settlement_maintenance: "村庄定居点维护"
+
  lhh_residential_area: "居民区"
  lhh_residential_area_desc: "随着城市化的进程，农民涌入城市，形成了大量的居民区。这些区域通常位于城市的边缘地带，提供了基本的住房和生活设施。居民区的建设有助于缓解城市中心的住房压力，同时也促进了城市的经济发展和社会稳定。"
  lhh_residential_area_maintenance: "居民区维护"
@@ -22,3 +26,5 @@
  lhh_manol_form_potato: "马铃薯庄园"
  lhh_manol_form_potato_desc: "庄园是封建贵族体系下，一种重要的农业生产单位。它通常由贵族或地主拥有，农民已雇佣或奴役在庄园内耕种作物，并向庄园主缴纳租金或劳役。庄园不仅是粮食生产的核心，也是社会经济结构的重要组成部分。通过庄园的运作，封建社会得以维持其经济基础和社会秩序。"
  lhh_manol_form_potato_maintenance: "马铃薯庄园维护"
+
+ lhh_royal_post_construction: "驿站建造"

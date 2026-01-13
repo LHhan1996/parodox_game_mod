@@ -4,6 +4,20 @@ lhh_residential_area_max_level = {
 		value = development
 		multiply = 0.1
 	}
+	if = {
+		limit = {
+			location_rank ?= location_rank:rural_settlement
+		}
+		add = {
+			desc = "BUILDING_LEVEL_IS_RURAL_SETTLEMENT"
+			value = 5
+		}
+        add = {
+            desc = "BUILDING_LEVEL_POPULATION"
+            value = population
+            multiply = 0.05
+	    }
+	}
     if = {
 		limit = {
 			location_rank ?= location_rank:town

@@ -1,4 +1,8 @@
 ﻿l_english:
+ lhh_village_settlement: "Village Settlement"
+ lhh_village_settlement_desc: "A village settlement is a small community established in rural areas, typically composed of farmers and craftsmen. These settlements provide basic housing and living facilities."
+ lhh_village_settlement_maintenance: "Village Settlement Maintenance"
+
  residential_area: "Residential Area"
  residential_area_desc: "With the process of urbanization, farmers have flooded into cities, forming large residential areas. These areas are usually located on the outskirts of cities and provide basic housing and living facilities. The construction of residential areas helps alleviate housing pressure in city centers and also promotes economic development and social stability in cities."
  residential_area_maintenance: "Residential Area Maintenance"
@@ -22,3 +26,5 @@
  lhh_manol_form_potato: "Potato Manor"
  lhh_manol_form_potato_desc: "A manor is an important agricultural production unit under the feudal noble system. It is usually owned by nobles or landowners, and farmers are employed or enslaved to cultivate crops on the manor and pay rent or labor services to the manor owner. The manor is not only the core of grain production but also an important component of the social economic structure. Through the operation of the manor, the feudal society maintains its economic foundation and social order."
  lhh_manol_form_potato_maintenance: "Potato Manor Maintenance"
+
+ lhh_royal_post_construction: "Royal Post Construction"
