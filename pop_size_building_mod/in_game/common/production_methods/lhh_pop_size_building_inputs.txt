@@ -1,3 +1,13 @@
+lhh_village_settlement_maintenance = {
+	furniture = 0.1
+	tools = 0.1
+	glass = 0.1
+	cloth = 0.1
+	beer = 0.1
+
+	category = building_maintenance
+}
+
 lhh_residential_area_maintenance = {
 	furniture = 0.2
 	tools = 0.2

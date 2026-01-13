@@ -52,3 +52,6 @@
  lhh_alum_mining: "Alum Mining"
  lhh_alum_mining_desc: "Alum Mining is a facility specifically designed for extracting and purifying alum resources. It can efficiently produce high-purity alum resources, providing important support for industrial production and manufacturing."
  lhh_alum_mining_maintenance: "Alum Mining Maintenance"
+
+ lhh_horse_ranch_construction: "Horse Ranch Construction"
+ lhh_logging_mill_construction: "Logging Mill Construction"
